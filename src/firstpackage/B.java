@@ -1,17 +1,18 @@
 package firstpackage;
 
 public class B {
-  static void print(){
+   void print(){
       A a = new A();
       a.valid=100;
       System.out.println("amount: "+a.valid);
   }
-  int amount;
+  private int amount;
   void message(){
       System.out.println("Hi");
   }
 
     public static void main(String[] args) {
-        print();
+        B b1 =new B();
+        b1.print();
     }
 }
