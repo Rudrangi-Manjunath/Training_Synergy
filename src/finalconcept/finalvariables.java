@@ -1,7 +1,7 @@
 package finalconcept;
 
 public class finalvariables {
-    final int a; // Instance final variable
+    final int a=20; // Instance final variable
 
     /*{
         a=20;                             // Instance block
