@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/day_5.iml" filepath="$PROJECT_DIR$/day_5.iml" />
+=======
+        <module fileurl="file://$PROJECT_DIR$/Training_day3.iml" filepath="$PROJECT_DIR$/Training_day3.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Secondday_java.iml" filepath="$PROJECT_DIR$/Secondday_java.iml" />
+>>>>>>> 0336391bf3f2148b7bf1e0083715f18eb9213c7f
+>>>>>>> 236dc21b657173a9db1d03d24a704546570b9b80
     </modules>
   </component>
 </project>
