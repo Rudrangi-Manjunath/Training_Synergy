@@ -1,12 +1,13 @@
 import java.util.ArrayList;
 
-interface car{
+/*interface car{
     void start();
     void changegear();
     void  stop();
-}
+}*/
 
 
+/*
 class inter implements car{
     @Override
     public void start() {
@@ -32,4 +33,6 @@ public  class Interfaces{
         i.stop();
     }
 }
+*/
+
 
