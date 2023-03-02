@@ -29,7 +29,7 @@ class student{
 
 
 
-public class problem {
+public class problem2 {
     public static void main(String[] args) {
         student s1 = new student("naresh",15,25);
         student s2 = new student("mukesh",20,50);
@@ -46,6 +46,5 @@ public class problem {
 
         Map<String,Double> mp = Stream.concat(stream1,stream2).collect(Collectors.groupingBy(student::getName,Collectors.averagingDouble(student::getMarks)));
         System.out.println(mp);
-
     }
 }
