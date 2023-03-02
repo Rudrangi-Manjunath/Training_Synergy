@@ -46,6 +46,5 @@ public class problem {
 
         Map<String,Double> mp = Stream.concat(stream1,stream2).collect(Collectors.groupingBy(student::getName,Collectors.averagingDouble(student::getMarks)));
         System.out.println(mp);
-
     }
 }
